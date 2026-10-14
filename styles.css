@@ -297,3 +297,34 @@ dialog[open]{animation:dialog-enter .22s ease-out}
 .hero-content{padding-top:55px;padding-bottom:55px}
 @media(max-width:820px){.hero{min-height:max(580px,calc(100svh - 60px))}}
 @media(max-width:480px){.hero{min-height:max(560px,calc(100svh - 60px));align-items:center}.hero-content{padding-top:50px;padding-bottom:50px}}
+/* Portada de altura moderada, sin ocupar toda la pantalla. */
+.hero{min-height:520px}
+.hero-content{padding-top:35px;padding-bottom:35px}
+@media(max-width:820px){.hero{min-height:500px}}
+@media(max-width:480px){.hero{min-height:490px}.hero-content{padding-top:40px;padding-bottom:40px}}
+/* Altura intermedia de la portada. */
+.hero{min-height:590px}
+@media(max-width:820px){.hero{min-height:550px}}
+@media(max-width:480px){.hero{min-height:530px}}
+.hero{min-height:640px}
+@media(max-width:820px){.hero{min-height:590px}}
+@media(max-width:480px){.hero{min-height:570px}}
+.hero{min-height:680px}
+@media(max-width:820px){.hero{min-height:620px}}
+@media(max-width:480px){.hero{min-height:600px}}
+/* Medidas finales solicitadas: escritorio y vista móvil hasta 820px. */
+.site-shell{max-width:1440px;padding-top:74px}
+.header{max-width:1440px;height:74px;padding-left:5%;padding-right:5%}
+.hero{min-height:650px}
+.hero-content,.classes,.plans,.opening-hours,.contact,.footer{padding-left:5%;padding-right:5%}
+.about-copy{padding-left:10%;padding-right:10%}
+#inicio,#nosotros,#clases,#horarios,#planes,#contacto{scroll-margin-top:90px}
+@media(min-width:821px) and (max-width:1100px){.hero{min-height:620px}}
+@media(max-width:820px){
+ .site-shell{width:100%;max-width:100%;margin:0;padding-top:64px}
+ .header{width:100%;max-width:100%;height:64px;padding-left:6%;padding-right:6%}
+ .header nav{top:64px;padding-left:6%;padding-right:6%}
+ .hero{min-height:610px}
+ .hero-content,.about-copy,.classes,.plans,.opening-hours,.contact,.footer{padding-left:6%;padding-right:6%}
+ #inicio,#nosotros,#clases,#horarios,#planes,#contacto{scroll-margin-top:80px}
+}
